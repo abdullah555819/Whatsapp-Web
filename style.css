@@ -1,0 +1,123 @@
+body{
+    margin: 0px,0px,0px,0px;
+    box-sizing: border-box;
+}
+.main1{
+    background-color: #111b20;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    border-bottom: 1px solid rgb(27, 25, 25);
+}
+.text-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 1%;
+}
+.div1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    
+}
+.m-icon{
+    transform: scale(1.5);
+    color: white;
+}
+.icon-main{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 19%;
+}
+.main2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 5vh;
+    background-color: #111b20;
+    margin: 0px 0px 0px 0px;
+    position: fixed;
+    top: 11%;
+    padding: 1% 0;
+    z-index: 1;
+
+  }
+  .community-div {
+    margin-left: -2%;
+  }
+  .but-1 {
+    background-color: transparent;
+    border: none;
+    color: #30a14e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-bottom: 3px solid #30a14e;
+    width: 150%;
+    height: 8vh;
+  }
+  .but-2 {
+    background-color: transparent;
+    border: none;
+    width: 150%;
+    height: 6vh;
+    font-size: 25px;
+    color: rgb(183, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
+ }
+.but-2:hover {
+    border-bottom: 2px solid #30a14e;
+     color: #30a14e;
+}
+.body-div{
+  width: 100%;
+  background-color: black;
+}
+.chat-main {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-top: 10%;
+  padding-left: 2%;
+  box-sizing: border-box;
+}
+.chat2 {
+  padding-top: 2%;
+}
+.chat1 {
+  margin-left: 45%;
+}
+.dp {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+.name-time {
+  display: flex;
+  margin-left: 1%;
+  justify-content: space-between;
+  width: 90%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.name {
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.g-msg {
+  margin-top: 5%;
+}
+.time {
+  color: rgb(183, 172, 172);
+  font-size: 13px;
+}
